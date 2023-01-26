@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+
+target 'ClearToDoList' do
+
+  # Pods for ClearToDoList
+
+use_frameworks! :linkage => :static   
+pod 'SwipeCellKit'
+pod 'ChameleonFramework/Swift', :git => 'https://github.com/wowansm/Chameleon.git', :branch => 'swift5'
+pod 'RealmSwift'
+
+end
